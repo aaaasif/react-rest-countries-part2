@@ -1,7 +1,13 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import Countries from './components/Countries/Countries';
 
 function App() {
+  const[countries, setCountries] = useState([]);
+
+  useEffect ( () =>{
+    
+  })
   return (
     <div className="App">
       <Countries></Countries>
