@@ -8,4 +8,4 @@ const Countries = () => {
     );
 };
 
-export default Countries;c
+export default Countries;
